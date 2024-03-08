@@ -237,12 +237,12 @@ h3 {
   margin: 1rem;
 }
 .portfolio-img {
-  transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
+  transition: transform 300ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
   height: 250px;
   width: 700px;
 }
 .portfolio-img:hover {
-  transform: scale(0.8);
+  transform: scale(0.9);
 }
 a {
   text-decoration: none;
@@ -298,4 +298,45 @@ a {
 .footer-subtitle {
   font-size: 0.8em;
   margin-top: 0.5rem;
+}
+
+.my-experience .section-subtitle {
+  background: var(--clr-accent);
+  font-family: var(--ff-secondary);
+  margin-bottom: 0.3em;
+  padding: 0.3rem;
+}
+.my-experience img {
+  width: 100px;
+  height: 100px;
+}
+.experience01,
+.experience02 {
+  background: rgba(223, 223, 223, 0.4);
+  padding: 1rem;
+  border-radius: 1em;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.img-title-sub {
+  display: flex;
+}
+.title-sub {
+  margin-left: 1rem;
+}
+.exp-year {
+  text-align: end;
+  font-weight: var(--fw-bold);
+  margin-bottom: 0;
+}
+.exp-title,
+.exp-subtitle {
+  margin: 0;
+}
+.exp-description {
+  font-size: var(--fs-body);
+}
+.exp-title {
+  font-weight: var(--fw-bold);
 }
