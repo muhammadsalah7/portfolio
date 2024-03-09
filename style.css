@@ -404,8 +404,8 @@ a {
   padding: 0.3rem;
 }
 .my-experience img {
-  width: 100px;
-  height: 100px;
+  width: 65px;
+  height: 65px;
 }
 .experience01,
 .experience02 {
@@ -426,13 +426,11 @@ a {
   text-align: end;
   font-weight: var(--fw-bold);
   margin-bottom: 0;
+  margin-top: 0;
 }
 .exp-title,
 .exp-subtitle {
   margin: 0;
-}
-.exp-description {
-  font-size: var(--fs-body);
 }
 .exp-title {
   font-weight: var(--fw-bold);
