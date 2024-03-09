@@ -52,10 +52,6 @@ img {
 strong {
   font-weight: var(--fw-bold) !important;
 }
-:focus {
-  /* outline: 1px solid var(--clr-accent); */
-  outline-offset: 3px;
-}
 
 /* Buttons */
 .btn {
@@ -404,7 +400,7 @@ a {
 .my-experience .section-subtitle {
   background: var(--clr-accent);
   font-family: var(--ff-secondary);
-  margin-bottom: 0.3em;
+  margin-bottom: 1em;
   padding: 0.3rem;
 }
 .my-experience img {
